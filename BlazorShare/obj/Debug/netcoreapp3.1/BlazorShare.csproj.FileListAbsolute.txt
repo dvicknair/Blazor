@@ -1,0 +1,9 @@
+D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.csprojAssemblyReference.cache
+D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.AssemblyInfoInputs.cache
+D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.AssemblyInfo.cs
+D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.csproj.CoreCompileInputs.cache
+D:\Code\BlazorApp\BlazorShare\bin\Debug\netcoreapp3.1\BlazorShare.deps.json
+D:\Code\BlazorApp\BlazorShare\bin\Debug\netcoreapp3.1\BlazorShare.dll
+D:\Code\BlazorApp\BlazorShare\bin\Debug\netcoreapp3.1\BlazorShare.pdb
+D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.dll
+D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.pdb

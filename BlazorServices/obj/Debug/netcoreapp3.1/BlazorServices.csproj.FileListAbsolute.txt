@@ -1,0 +1,4 @@
+D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.csprojAssemblyReference.cache
+D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.AssemblyInfoInputs.cache
+D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.AssemblyInfo.cs
+D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.csproj.CoreCompileInputs.cache

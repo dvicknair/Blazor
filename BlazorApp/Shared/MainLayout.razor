@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authentication.Cookies
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <!-- BLAZOR COOKIE Auth Code (begin) -->
+        <LoginControl />
+        <!-- BLAZOR COOKIE Auth Code (end) -->
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
