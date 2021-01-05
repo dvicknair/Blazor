@@ -95,3 +95,5 @@ D:\Code\BlazorApp\BlazorApp\bin\Debug\net5.0\BlazorServices.pdb
 D:\Code\BlazorApp\BlazorApp\bin\Debug\net5.0\BlazorShare.pdb
 D:\Code\BlazorApp\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\Register.razor.g.cs
 D:\Code\BlazorApp\BlazorApp\obj\Debug\net5.0\Razor\Pages\Register.razor.g.cs
+D:\Code\BlazorApp\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\Users.razor.g.cs
+D:\Code\BlazorApp\BlazorApp\obj\Debug\net5.0\Razor\Pages\Users.razor.g.cs

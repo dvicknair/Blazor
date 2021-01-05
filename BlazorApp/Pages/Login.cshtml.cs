@@ -21,7 +21,7 @@ namespace BlazorApp.Pages
         }
         public string ReturnUrl { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string paramUsername, string paramPassword)
+        public async Task<IActionResult> OnGetAsync(string username, string password)
         {
             string returnUrl = Url.Content("~/");
             try
@@ -33,7 +33,7 @@ namespace BlazorApp.Pages
             }
             catch { }
 
-            var user = _userService.ValidateUser(new UserRegisterDTO{ Name = paramUsername, Password = paramPassword }); ;
+            var user = _userService.ValidateUser(new UserRegisterDTO{ Name = username, Password = password }); ;
             
             if(user != null)
             {

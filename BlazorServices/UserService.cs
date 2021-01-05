@@ -3,7 +3,9 @@ using BlazorData.Models;
 using BlazorData.Repositories;
 using BlazorShare.DTOs;
 using System;
+using System.Collections.Generic;
 using System.Security.Cryptography;
+using System.Threading.Tasks;
 
 namespace BlazorServices
 {
@@ -75,7 +77,7 @@ namespace BlazorServices
         public UserDTO ValidateUser(UserRegisterDTO user)
         {
             var user2Check = _userRepository.GetSingle(u => u.Name == user.Name);
-            if (IsValid(user.Password, user2Check.Password))
+            if (user2Check != null && IsValid(user.Password, user2Check.Password))
             {
                 return _mapper.Map<UserDTO>(user2Check);
             }
@@ -83,6 +85,19 @@ namespace BlazorServices
             {
                 return null;
             }
+        }
+
+        public async Task<IEnumerable<UserDTO>> GetUsers()
+        {
+            var users = await _userRepository.GetAll();
+            var userList = new List<UserDTO>();
+
+            foreach (var user in users)
+            {
+                userList.Add(_mapper.Map<UserDTO>(user));
+            }
+
+            return userList;
         }
     }
 }

@@ -90,7 +90,7 @@ using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "D:\Code\BlazorApp\BlazorApp\Shared\NavMenu.razor"
+#line 33 "D:\Code\BlazorApp\BlazorApp\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

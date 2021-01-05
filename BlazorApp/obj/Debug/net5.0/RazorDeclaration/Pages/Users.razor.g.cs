@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorApp.Shared
+namespace BlazorApp.Pages
 {
     #line hidden
     using System;
@@ -82,34 +82,14 @@ using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "D:\Code\BlazorApp\BlazorApp\Shared\LoginControl.razor"
-using System.Web;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/loginControl")]
-    public partial class LoginControl : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/users")]
+    public partial class Users : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 27 "D:\Code\BlazorApp\BlazorApp\Shared\LoginControl.razor"
-       
-    string Username = "";
-    string Password = "";
-    private string encode(string param)
-    {
-        return HttpUtility.UrlEncode(param);
-    }
-
-#line default
-#line hidden
-#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ProtectedSessionStorage ProtectedSessionStore { get; set; }
     }
 }

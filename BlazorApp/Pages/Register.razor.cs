@@ -12,9 +12,11 @@ namespace BlazorApp.Pages
     {
         [Inject] protected IUserService _userService { get; set; }
         public UserRegisterDTO UserRegister = new();
+        [Parameter] public EventCallback OnUserAdded { get; set; }
         private void HandleValidSubmit()
         {
             _userService.Register(UserRegister);
+            OnUserAdded.InvokeAsync();
         }
     }
 }
