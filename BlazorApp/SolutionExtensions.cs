@@ -1,4 +1,5 @@
 ﻿using BlazorData;
+using BlazorServices;
 using BlazorShare;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,7 +11,7 @@ namespace BlazorApp
         public static IServiceCollection AddSolutionExtensions(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddBlazorDataExtensions(configuration);
-            //services.AddKL_ServicesExtensions(configuration);
+            services.AddBlazorServicesExtensions();
             services.AddBlazorShareExtensions();
             return services;
         }

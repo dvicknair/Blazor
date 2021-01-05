@@ -28,9 +28,6 @@ namespace BlazorServices
 
                 var userDto = _mapper.Map<UserDTO>(newUser);
 
-                //var user2Check = _userRepository.GetSingle(u => u.Email == userDto.Email);
-                //var t = IsValid("password", user2Check.Password);
-
                 return userDto;
             }
             catch (Exception)
@@ -73,6 +70,19 @@ namespace BlazorServices
             //no match return false
             return false;
 
+        }
+
+        public UserDTO ValidateUser(UserRegisterDTO user)
+        {
+            var user2Check = _userRepository.GetSingle(u => u.Name == user.Name);
+            if (IsValid(user.Password, user2Check.Password))
+            {
+                return _mapper.Map<UserDTO>(user2Check);
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

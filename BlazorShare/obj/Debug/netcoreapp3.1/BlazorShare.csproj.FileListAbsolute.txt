@@ -7,3 +7,6 @@ D:\Code\BlazorApp\BlazorShare\bin\Debug\netcoreapp3.1\BlazorShare.dll
 D:\Code\BlazorApp\BlazorShare\bin\Debug\netcoreapp3.1\BlazorShare.pdb
 D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.dll
 D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.pdb
+D:\Code\BlazorApp\BlazorShare\bin\Debug\netcoreapp3.1\BlazorData.dll
+D:\Code\BlazorApp\BlazorShare\bin\Debug\netcoreapp3.1\BlazorData.pdb
+D:\Code\BlazorApp\BlazorShare\obj\Debug\netcoreapp3.1\BlazorShare.csproj.CopyComplete

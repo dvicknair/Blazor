@@ -2,3 +2,13 @@ D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.csprojAs
 D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.AssemblyInfoInputs.cache
 D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.AssemblyInfo.cs
 D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.csproj.CoreCompileInputs.cache
+D:\Code\BlazorApp\BlazorServices\bin\Debug\netcoreapp3.1\BlazorServices.deps.json
+D:\Code\BlazorApp\BlazorServices\bin\Debug\netcoreapp3.1\BlazorServices.dll
+D:\Code\BlazorApp\BlazorServices\bin\Debug\netcoreapp3.1\BlazorServices.pdb
+D:\Code\BlazorApp\BlazorServices\bin\Debug\netcoreapp3.1\BlazorData.dll
+D:\Code\BlazorApp\BlazorServices\bin\Debug\netcoreapp3.1\BlazorShare.dll
+D:\Code\BlazorApp\BlazorServices\bin\Debug\netcoreapp3.1\BlazorData.pdb
+D:\Code\BlazorApp\BlazorServices\bin\Debug\netcoreapp3.1\BlazorShare.pdb
+D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.csproj.CopyComplete
+D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.dll
+D:\Code\BlazorApp\BlazorServices\obj\Debug\netcoreapp3.1\BlazorServices.pdb
